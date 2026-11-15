@@ -1,0 +1,20 @@
+[
+ {"id":"oats_banana","title":"Banana Oatmeal","prep_min":10,"servings":1,"tags":["vegetarian"],"macros":{"kcal":350,"protein":10,"carbs":60,"fat":7},
+  "ingredients":[{"name":"rolled oats","qty":0.5,"unit":"cup","category":"Pantry","cost":0.4},{"name":"banana","qty":1,"unit":"pc","category":"Produce","cost":0.3},{"name":"milk","qty":1,"unit":"cup","category":"Dairy","cost":0.5}],
+  "steps":["Simmer oats in milk 5 min.","Top with sliced banana."]},
+ {"id":"chicken_stirfry","title":"Chicken Veggie Stir-Fry","prep_min":25,"servings":2,"tags":["high-protein"],"macros":{"kcal":520,"protein":42,"carbs":35,"fat":20},
+  "ingredients":[{"name":"chicken breast","qty":400,"unit":"g","category":"Meat","cost":5.0},{"name":"broccoli","qty":300,"unit":"g","category":"Produce","cost":2.0},{"name":"soy sauce","qty":2,"unit":"tbsp","category":"Pantry","cost":0.2},{"name":"rice","qty":1,"unit":"cup","category":"Pantry","cost":0.6}],
+  "steps":["Cook rice.","Sear chicken 6 min.","Add broccoli and soy sauce, cook 4 min."]},
+ {"id":"lentil_soup","title":"Red Lentil Soup","prep_min":30,"servings":3,"tags":["vegan","budget"],"macros":{"kcal":380,"protein":22,"carbs":55,"fat":6},
+  "ingredients":[{"name":"red lentils","qty":1.5,"unit":"cup","category":"Pantry","cost":1.5},{"name":"onion","qty":1,"unit":"pc","category":"Produce","cost":0.5},{"name":"carrot","qty":2,"unit":"pc","category":"Produce","cost":0.6},{"name":"vegetable broth","qty":1,"unit":"l","category":"Pantry","cost":1.2}],
+  "steps":["Sauté onion and carrot 5 min.","Add lentils and broth, simmer 20 min."]},
+ {"id":"egg_toast","title":"Egg & Avocado Toast","prep_min":10,"servings":1,"tags":["vegetarian"],"macros":{"kcal":420,"protein":18,"carbs":30,"fat":26},
+  "ingredients":[{"name":"egg","qty":2,"unit":"pc","category":"Dairy","cost":0.8},{"name":"bread","qty":2,"unit":"pc","category":"Bakery","cost":0.4},{"name":"avocado","qty":1,"unit":"pc","category":"Produce","cost":1.2}],
+  "steps":["Toast bread.","Fry eggs 3 min.","Assemble with sliced avocado."]},
+ {"id":"salmon_bowl","title":"Salmon Rice Bowl","prep_min":20,"servings":1,"tags":["high-protein"],"macros":{"kcal":600,"protein":38,"carbs":55,"fat":24},
+  "ingredients":[{"name":"salmon fillet","qty":180,"unit":"g","category":"Meat","cost":5.5},{"name":"rice","qty":1,"unit":"cup","category":"Pantry","cost":0.6},{"name":"cucumber","qty":0.5,"unit":"pc","category":"Produce","cost":0.5}],
+  "steps":["Cook rice.","Pan-sear salmon 8 min.","Serve over rice with cucumber."]},
+ {"id":"pasta_tomato","title":"Tomato Basil Pasta","prep_min":20,"servings":2,"tags":["vegan","budget"],"macros":{"kcal":480,"protein":14,"carbs":85,"fat":9},
+  "ingredients":[{"name":"pasta","qty":200,"unit":"g","category":"Pantry","cost":0.8},{"name":"canned tomatoes","qty":400,"unit":"g","category":"Pantry","cost":1.2},{"name":"basil","qty":1,"unit":"bunch","category":"Produce","cost":1.5}],
+  "steps":["Boil pasta 10 min.","Simmer tomatoes 10 min.","Combine, add basil."]}
+]

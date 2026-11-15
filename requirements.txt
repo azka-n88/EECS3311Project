@@ -1,0 +1,2 @@
+# Standard library only (tkinter, sqlite3, urllib). Optional: pytest for tests.
+pytest
