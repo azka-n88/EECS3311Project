@@ -1,0 +1,9 @@
+# Local secrets
+.env
+.env.*
+!.env.example
+config.local.json
+_pycache_/
+*.pyc
+*.db
+exports/
