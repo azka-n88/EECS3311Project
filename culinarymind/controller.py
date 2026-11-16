@@ -1,12 +1,31 @@
 """CONTROLLER of MVC. Shared by GUI and CLI so neither contains business logic."""
 from . import db, grocery, export
+from .agent import AgentExecutionEngine
+from .llm import get_adapter
+from .tools import SystemToolFactory
 from .models import PantryModel, MealPlanModel, ValidationError
 
 class ServiceController:
-    def __init__(self, con=None):
+    def __init__(self, con=None, llm=None):
         self.con = con or db.connect()
         self.pantry = PantryModel(self.con)
         self.plan = MealPlanModel(self.con)
+        self.tools = SystemToolFactory(self.pantry, self.plan).create_all()
+        self._llm = llm; self._engine = None
+
+    @property
+    def engine(self):
+        if self._engine is None:
+            self._engine = AgentExecutionEngine(self._llm or get_adapter(), self.tools, self.pantry, self.plan, self.con)
+        return self._engine
+
+    # F02 / F03 (AI agent)
+    def generate_plan(self, **kw): return self.engine.generate_plan(**kw)
+    def swap_meal(self, day, meal, **kw):
+        res = self.engine.swap_meal(day, meal, **kw)
+        if res["ok"]: res["grocery"] = self.grocery_list()      # dependent grocery list refreshes
+        return res
+    def macros(self): return self.tools["calculate_macros"].run()
 
     # F01
     def add_pantry_item(self, **kw): return self.pantry.add_item(**kw)

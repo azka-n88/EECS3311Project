@@ -93,4 +93,8 @@ class MealPlanModel(Subject):
         return [dict(r) for r in self.con.execute("SELECT * FROM plan ORDER BY day, meal")]
 
     def total_cost(self):
-        return round(sum(i.get("cost", 0) for s in self.get_plan() for i in self.recipes[s["recipe_id"]]["ingredients"]), 2)
+        return round(sum(recipe_cost(self.recipes[s["recipe_id"]]) for s in self.get_plan()), 2)
+
+def recipe_cost(r):
+    """Estimated cost of ONE serving of a recipe."""
+    return round(sum(i.get("cost", 0) for i in r["ingredients"]) / max(r.get("servings", 1), 1), 2)

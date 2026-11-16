@@ -17,3 +17,9 @@ AI meal-planning agent with GUI (Tkinter) and CLI sharing one `ServiceController
     python -m culinarymind.cli plan-set 1 dinner chicken_stirfry
     python -m culinarymind.cli grocery
     python -m culinarymind.cli export ics plan.ics
+
+## AI agent commands (F02/F03)
+    python -m culinarymind.cli plan-generate --days 3 --budget 50 --diet vegetarian --allergen peanut --strategy zero_waste
+    python -m culinarymind.cli plan-swap 2 dinner --reason "need a 15 minute option" --max-prep 15
+    python -m culinarymind.cli macros
+Add `--no-llm` to use the deterministic planner (also used automatically if the LLM call fails).

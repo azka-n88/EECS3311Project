@@ -1,20 +1,1078 @@
 [
- {"id":"oats_banana","title":"Banana Oatmeal","prep_min":10,"servings":1,"tags":["vegetarian"],"macros":{"kcal":350,"protein":10,"carbs":60,"fat":7},
-  "ingredients":[{"name":"rolled oats","qty":0.5,"unit":"cup","category":"Pantry","cost":0.4},{"name":"banana","qty":1,"unit":"pc","category":"Produce","cost":0.3},{"name":"milk","qty":1,"unit":"cup","category":"Dairy","cost":0.5}],
-  "steps":["Simmer oats in milk 5 min.","Top with sliced banana."]},
- {"id":"chicken_stirfry","title":"Chicken Veggie Stir-Fry","prep_min":25,"servings":2,"tags":["high-protein"],"macros":{"kcal":520,"protein":42,"carbs":35,"fat":20},
-  "ingredients":[{"name":"chicken breast","qty":400,"unit":"g","category":"Meat","cost":5.0},{"name":"broccoli","qty":300,"unit":"g","category":"Produce","cost":2.0},{"name":"soy sauce","qty":2,"unit":"tbsp","category":"Pantry","cost":0.2},{"name":"rice","qty":1,"unit":"cup","category":"Pantry","cost":0.6}],
-  "steps":["Cook rice.","Sear chicken 6 min.","Add broccoli and soy sauce, cook 4 min."]},
- {"id":"lentil_soup","title":"Red Lentil Soup","prep_min":30,"servings":3,"tags":["vegan","budget"],"macros":{"kcal":380,"protein":22,"carbs":55,"fat":6},
-  "ingredients":[{"name":"red lentils","qty":1.5,"unit":"cup","category":"Pantry","cost":1.5},{"name":"onion","qty":1,"unit":"pc","category":"Produce","cost":0.5},{"name":"carrot","qty":2,"unit":"pc","category":"Produce","cost":0.6},{"name":"vegetable broth","qty":1,"unit":"l","category":"Pantry","cost":1.2}],
-  "steps":["Sauté onion and carrot 5 min.","Add lentils and broth, simmer 20 min."]},
- {"id":"egg_toast","title":"Egg & Avocado Toast","prep_min":10,"servings":1,"tags":["vegetarian"],"macros":{"kcal":420,"protein":18,"carbs":30,"fat":26},
-  "ingredients":[{"name":"egg","qty":2,"unit":"pc","category":"Dairy","cost":0.8},{"name":"bread","qty":2,"unit":"pc","category":"Bakery","cost":0.4},{"name":"avocado","qty":1,"unit":"pc","category":"Produce","cost":1.2}],
-  "steps":["Toast bread.","Fry eggs 3 min.","Assemble with sliced avocado."]},
- {"id":"salmon_bowl","title":"Salmon Rice Bowl","prep_min":20,"servings":1,"tags":["high-protein"],"macros":{"kcal":600,"protein":38,"carbs":55,"fat":24},
-  "ingredients":[{"name":"salmon fillet","qty":180,"unit":"g","category":"Meat","cost":5.5},{"name":"rice","qty":1,"unit":"cup","category":"Pantry","cost":0.6},{"name":"cucumber","qty":0.5,"unit":"pc","category":"Produce","cost":0.5}],
-  "steps":["Cook rice.","Pan-sear salmon 8 min.","Serve over rice with cucumber."]},
- {"id":"pasta_tomato","title":"Tomato Basil Pasta","prep_min":20,"servings":2,"tags":["vegan","budget"],"macros":{"kcal":480,"protein":14,"carbs":85,"fat":9},
-  "ingredients":[{"name":"pasta","qty":200,"unit":"g","category":"Pantry","cost":0.8},{"name":"canned tomatoes","qty":400,"unit":"g","category":"Pantry","cost":1.2},{"name":"basil","qty":1,"unit":"bunch","category":"Produce","cost":1.5}],
-  "steps":["Boil pasta 10 min.","Simmer tomatoes 10 min.","Combine, add basil."]}
+ {
+  "id": "oats_banana",
+  "title": "Banana Oatmeal",
+  "prep_min": 10,
+  "servings": 1,
+  "meals": [
+   "breakfast"
+  ],
+  "tags": [
+   "vegetarian"
+  ],
+  "allergens": [
+   "dairy"
+  ],
+  "macros": {
+   "kcal": 350,
+   "protein": 10,
+   "carbs": 60,
+   "fat": 7
+  },
+  "ingredients": [
+   {
+    "name": "rolled oats",
+    "qty": 0.5,
+    "unit": "cup",
+    "category": "Pantry",
+    "cost": 0.4
+   },
+   {
+    "name": "banana",
+    "qty": 1,
+    "unit": "pc",
+    "category": "Produce",
+    "cost": 0.3
+   },
+   {
+    "name": "milk",
+    "qty": 1,
+    "unit": "cup",
+    "category": "Dairy",
+    "cost": 0.5
+   }
+  ],
+  "steps": [
+   "Simmer oats in milk 5 min.",
+   "Top with sliced banana."
+  ]
+ },
+ {
+  "id": "egg_toast",
+  "title": "Egg & Avocado Toast",
+  "prep_min": 10,
+  "servings": 1,
+  "meals": [
+   "breakfast"
+  ],
+  "tags": [
+   "vegetarian"
+  ],
+  "allergens": [
+   "egg",
+   "gluten"
+  ],
+  "macros": {
+   "kcal": 420,
+   "protein": 18,
+   "carbs": 30,
+   "fat": 26
+  },
+  "ingredients": [
+   {
+    "name": "egg",
+    "qty": 2,
+    "unit": "pc",
+    "category": "Dairy",
+    "cost": 0.8
+   },
+   {
+    "name": "bread",
+    "qty": 2,
+    "unit": "pc",
+    "category": "Bakery",
+    "cost": 0.4
+   },
+   {
+    "name": "avocado",
+    "qty": 1,
+    "unit": "pc",
+    "category": "Produce",
+    "cost": 1.2
+   }
+  ],
+  "steps": [
+   "Toast bread.",
+   "Fry eggs 3 min.",
+   "Assemble with sliced avocado."
+  ]
+ },
+ {
+  "id": "yogurt_parfait",
+  "title": "Berry Yogurt Parfait",
+  "prep_min": 5,
+  "servings": 1,
+  "meals": [
+   "breakfast",
+   "snack"
+  ],
+  "tags": [
+   "vegetarian"
+  ],
+  "allergens": [
+   "dairy",
+   "gluten"
+  ],
+  "macros": {
+   "kcal": 300,
+   "protein": 15,
+   "carbs": 40,
+   "fat": 8
+  },
+  "ingredients": [
+   {
+    "name": "yogurt",
+    "qty": 1,
+    "unit": "cup",
+    "category": "Dairy",
+    "cost": 1.0
+   },
+   {
+    "name": "granola",
+    "qty": 0.5,
+    "unit": "cup",
+    "category": "Pantry",
+    "cost": 0.8
+   },
+   {
+    "name": "berries",
+    "qty": 100,
+    "unit": "g",
+    "category": "Produce",
+    "cost": 1.5
+   }
+  ],
+  "steps": [
+   "Layer yogurt, granola and berries."
+  ]
+ },
+ {
+  "id": "veggie_omelet",
+  "title": "Spinach Cheese Omelet",
+  "prep_min": 12,
+  "servings": 1,
+  "meals": [
+   "breakfast"
+  ],
+  "tags": [
+   "vegetarian",
+   "high-protein"
+  ],
+  "allergens": [
+   "egg",
+   "dairy"
+  ],
+  "macros": {
+   "kcal": 380,
+   "protein": 24,
+   "carbs": 6,
+   "fat": 28
+  },
+  "ingredients": [
+   {
+    "name": "egg",
+    "qty": 3,
+    "unit": "pc",
+    "category": "Dairy",
+    "cost": 1.2
+   },
+   {
+    "name": "spinach",
+    "qty": 50,
+    "unit": "g",
+    "category": "Produce",
+    "cost": 0.6
+   },
+   {
+    "name": "cheddar cheese",
+    "qty": 30,
+    "unit": "g",
+    "category": "Dairy",
+    "cost": 0.8
+   }
+  ],
+  "steps": [
+   "Whisk eggs.",
+   "Cook 3 min, add spinach and cheese, fold."
+  ]
+ },
+ {
+  "id": "pb_toast_banana",
+  "title": "Peanut Butter Banana Toast",
+  "prep_min": 5,
+  "servings": 1,
+  "meals": [
+   "breakfast"
+  ],
+  "tags": [
+   "vegan",
+   "budget"
+  ],
+  "allergens": [
+   "peanut",
+   "gluten"
+  ],
+  "macros": {
+   "kcal": 400,
+   "protein": 14,
+   "carbs": 52,
+   "fat": 16
+  },
+  "ingredients": [
+   {
+    "name": "bread",
+    "qty": 2,
+    "unit": "pc",
+    "category": "Bakery",
+    "cost": 0.4
+   },
+   {
+    "name": "peanut butter",
+    "qty": 2,
+    "unit": "tbsp",
+    "category": "Pantry",
+    "cost": 0.5
+   },
+   {
+    "name": "banana",
+    "qty": 1,
+    "unit": "pc",
+    "category": "Produce",
+    "cost": 0.3
+   }
+  ],
+  "steps": [
+   "Toast bread.",
+   "Spread peanut butter, add banana."
+  ]
+ },
+ {
+  "id": "tofu_scramble",
+  "title": "Turmeric Tofu Scramble",
+  "prep_min": 15,
+  "servings": 1,
+  "meals": [
+   "breakfast",
+   "lunch"
+  ],
+  "tags": [
+   "vegan",
+   "high-protein"
+  ],
+  "allergens": [
+   "soy"
+  ],
+  "macros": {
+   "kcal": 340,
+   "protein": 22,
+   "carbs": 12,
+   "fat": 22
+  },
+  "ingredients": [
+   {
+    "name": "tofu",
+    "qty": 200,
+    "unit": "g",
+    "category": "Produce",
+    "cost": 1.8
+   },
+   {
+    "name": "spinach",
+    "qty": 50,
+    "unit": "g",
+    "category": "Produce",
+    "cost": 0.6
+   },
+   {
+    "name": "turmeric",
+    "qty": 1,
+    "unit": "tsp",
+    "category": "Pantry",
+    "cost": 0.1
+   }
+  ],
+  "steps": [
+   "Crumble tofu into a pan.",
+   "Add turmeric and spinach, cook 8 min."
+  ]
+ },
+ {
+  "id": "chicken_stirfry",
+  "title": "Chicken Veggie Stir-Fry",
+  "prep_min": 25,
+  "servings": 2,
+  "meals": [
+   "lunch",
+   "dinner"
+  ],
+  "tags": [
+   "high-protein"
+  ],
+  "allergens": [
+   "soy"
+  ],
+  "macros": {
+   "kcal": 520,
+   "protein": 42,
+   "carbs": 35,
+   "fat": 20
+  },
+  "ingredients": [
+   {
+    "name": "chicken breast",
+    "qty": 400,
+    "unit": "g",
+    "category": "Meat",
+    "cost": 5.0
+   },
+   {
+    "name": "broccoli",
+    "qty": 300,
+    "unit": "g",
+    "category": "Produce",
+    "cost": 2.0
+   },
+   {
+    "name": "soy sauce",
+    "qty": 2,
+    "unit": "tbsp",
+    "category": "Pantry",
+    "cost": 0.2
+   },
+   {
+    "name": "rice",
+    "qty": 1,
+    "unit": "cup",
+    "category": "Pantry",
+    "cost": 0.6
+   }
+  ],
+  "steps": [
+   "Cook rice.",
+   "Sear chicken 6 min.",
+   "Add broccoli and soy sauce, cook 4 min."
+  ]
+ },
+ {
+  "id": "lentil_soup",
+  "title": "Red Lentil Soup",
+  "prep_min": 30,
+  "servings": 3,
+  "meals": [
+   "lunch",
+   "dinner"
+  ],
+  "tags": [
+   "vegan",
+   "budget"
+  ],
+  "allergens": [],
+  "macros": {
+   "kcal": 380,
+   "protein": 22,
+   "carbs": 55,
+   "fat": 6
+  },
+  "ingredients": [
+   {
+    "name": "red lentils",
+    "qty": 1.5,
+    "unit": "cup",
+    "category": "Pantry",
+    "cost": 1.5
+   },
+   {
+    "name": "onion",
+    "qty": 1,
+    "unit": "pc",
+    "category": "Produce",
+    "cost": 0.5
+   },
+   {
+    "name": "carrot",
+    "qty": 2,
+    "unit": "pc",
+    "category": "Produce",
+    "cost": 0.6
+   },
+   {
+    "name": "vegetable broth",
+    "qty": 1,
+    "unit": "l",
+    "category": "Pantry",
+    "cost": 1.2
+   }
+  ],
+  "steps": [
+   "Saut\u00e9 onion and carrot 5 min.",
+   "Add lentils and broth, simmer 20 min."
+  ]
+ },
+ {
+  "id": "salmon_bowl",
+  "title": "Salmon Rice Bowl",
+  "prep_min": 20,
+  "servings": 1,
+  "meals": [
+   "lunch",
+   "dinner"
+  ],
+  "tags": [
+   "high-protein"
+  ],
+  "allergens": [
+   "fish"
+  ],
+  "macros": {
+   "kcal": 600,
+   "protein": 38,
+   "carbs": 55,
+   "fat": 24
+  },
+  "ingredients": [
+   {
+    "name": "salmon fillet",
+    "qty": 180,
+    "unit": "g",
+    "category": "Meat",
+    "cost": 5.5
+   },
+   {
+    "name": "rice",
+    "qty": 1,
+    "unit": "cup",
+    "category": "Pantry",
+    "cost": 0.6
+   },
+   {
+    "name": "cucumber",
+    "qty": 0.5,
+    "unit": "pc",
+    "category": "Produce",
+    "cost": 0.5
+   }
+  ],
+  "steps": [
+   "Cook rice.",
+   "Pan-sear salmon 8 min.",
+   "Serve over rice with cucumber."
+  ]
+ },
+ {
+  "id": "pasta_tomato",
+  "title": "Tomato Basil Pasta",
+  "prep_min": 20,
+  "servings": 2,
+  "meals": [
+   "lunch",
+   "dinner"
+  ],
+  "tags": [
+   "vegan",
+   "budget"
+  ],
+  "allergens": [
+   "gluten"
+  ],
+  "macros": {
+   "kcal": 480,
+   "protein": 14,
+   "carbs": 85,
+   "fat": 9
+  },
+  "ingredients": [
+   {
+    "name": "pasta",
+    "qty": 200,
+    "unit": "g",
+    "category": "Pantry",
+    "cost": 0.8
+   },
+   {
+    "name": "canned tomatoes",
+    "qty": 400,
+    "unit": "g",
+    "category": "Pantry",
+    "cost": 1.2
+   },
+   {
+    "name": "basil",
+    "qty": 1,
+    "unit": "bunch",
+    "category": "Produce",
+    "cost": 1.5
+   }
+  ],
+  "steps": [
+   "Boil pasta 10 min.",
+   "Simmer tomatoes 10 min.",
+   "Combine, add basil."
+  ]
+ },
+ {
+  "id": "chicken_wrap",
+  "title": "Chicken Lettuce Wrap",
+  "prep_min": 15,
+  "servings": 1,
+  "meals": [
+   "lunch"
+  ],
+  "tags": [
+   "high-protein"
+  ],
+  "allergens": [
+   "gluten",
+   "dairy"
+  ],
+  "macros": {
+   "kcal": 480,
+   "protein": 35,
+   "carbs": 40,
+   "fat": 18
+  },
+  "ingredients": [
+   {
+    "name": "tortilla",
+    "qty": 2,
+    "unit": "pc",
+    "category": "Bakery",
+    "cost": 0.8
+   },
+   {
+    "name": "chicken breast",
+    "qty": 150,
+    "unit": "g",
+    "category": "Meat",
+    "cost": 1.9
+   },
+   {
+    "name": "lettuce",
+    "qty": 50,
+    "unit": "g",
+    "category": "Produce",
+    "cost": 0.5
+   },
+   {
+    "name": "yogurt",
+    "qty": 0.25,
+    "unit": "cup",
+    "category": "Dairy",
+    "cost": 0.3
+   }
+  ],
+  "steps": [
+   "Slice cooked chicken.",
+   "Fill tortillas with chicken, lettuce, yogurt."
+  ]
+ },
+ {
+  "id": "chickpea_salad",
+  "title": "Chickpea Cucumber Salad",
+  "prep_min": 10,
+  "servings": 1,
+  "meals": [
+   "lunch"
+  ],
+  "tags": [
+   "vegan",
+   "budget"
+  ],
+  "allergens": [],
+  "macros": {
+   "kcal": 420,
+   "protein": 16,
+   "carbs": 55,
+   "fat": 14
+  },
+  "ingredients": [
+   {
+    "name": "chickpeas",
+    "qty": 400,
+    "unit": "g",
+    "category": "Pantry",
+    "cost": 1.3
+   },
+   {
+    "name": "cucumber",
+    "qty": 1,
+    "unit": "pc",
+    "category": "Produce",
+    "cost": 0.8
+   },
+   {
+    "name": "tomato",
+    "qty": 2,
+    "unit": "pc",
+    "category": "Produce",
+    "cost": 1.0
+   },
+   {
+    "name": "olive oil",
+    "qty": 1,
+    "unit": "tbsp",
+    "category": "Pantry",
+    "cost": 0.3
+   }
+  ],
+  "steps": [
+   "Chop vegetables.",
+   "Toss with chickpeas and olive oil."
+  ]
+ },
+ {
+  "id": "tuna_sandwich",
+  "title": "Tuna Sandwich",
+  "prep_min": 10,
+  "servings": 1,
+  "meals": [
+   "lunch",
+   "dinner"
+  ],
+  "tags": [
+   "high-protein"
+  ],
+  "allergens": [
+   "fish",
+   "gluten",
+   "egg"
+  ],
+  "macros": {
+   "kcal": 450,
+   "protein": 30,
+   "carbs": 40,
+   "fat": 16
+  },
+  "ingredients": [
+   {
+    "name": "bread",
+    "qty": 2,
+    "unit": "pc",
+    "category": "Bakery",
+    "cost": 0.4
+   },
+   {
+    "name": "canned tuna",
+    "qty": 120,
+    "unit": "g",
+    "category": "Pantry",
+    "cost": 1.6
+   },
+   {
+    "name": "mayonnaise",
+    "qty": 1,
+    "unit": "tbsp",
+    "category": "Pantry",
+    "cost": 0.2
+   }
+  ],
+  "steps": [
+   "Mix tuna and mayo.",
+   "Assemble sandwich."
+  ]
+ },
+ {
+  "id": "beef_chili",
+  "title": "Beef & Bean Chili",
+  "prep_min": 40,
+  "servings": 4,
+  "meals": [
+   "dinner"
+  ],
+  "tags": [
+   "high-protein"
+  ],
+  "allergens": [],
+  "macros": {
+   "kcal": 560,
+   "protein": 40,
+   "carbs": 45,
+   "fat": 22
+  },
+  "ingredients": [
+   {
+    "name": "ground beef",
+    "qty": 300,
+    "unit": "g",
+    "category": "Meat",
+    "cost": 4.2
+   },
+   {
+    "name": "kidney beans",
+    "qty": 400,
+    "unit": "g",
+    "category": "Pantry",
+    "cost": 1.3
+   },
+   {
+    "name": "canned tomatoes",
+    "qty": 400,
+    "unit": "g",
+    "category": "Pantry",
+    "cost": 1.2
+   },
+   {
+    "name": "onion",
+    "qty": 1,
+    "unit": "pc",
+    "category": "Produce",
+    "cost": 0.5
+   }
+  ],
+  "steps": [
+   "Brown beef.",
+   "Add onion, beans, tomatoes.",
+   "Simmer 30 min."
+  ]
+ },
+ {
+  "id": "veggie_curry",
+  "title": "Chickpea Spinach Curry",
+  "prep_min": 30,
+  "servings": 2,
+  "meals": [
+   "dinner"
+  ],
+  "tags": [
+   "vegan"
+  ],
+  "allergens": [],
+  "macros": {
+   "kcal": 450,
+   "protein": 12,
+   "carbs": 62,
+   "fat": 16
+  },
+  "ingredients": [
+   {
+    "name": "coconut milk",
+    "qty": 400,
+    "unit": "ml",
+    "category": "Pantry",
+    "cost": 1.8
+   },
+   {
+    "name": "chickpeas",
+    "qty": 200,
+    "unit": "g",
+    "category": "Pantry",
+    "cost": 0.7
+   },
+   {
+    "name": "rice",
+    "qty": 1,
+    "unit": "cup",
+    "category": "Pantry",
+    "cost": 0.6
+   },
+   {
+    "name": "spinach",
+    "qty": 100,
+    "unit": "g",
+    "category": "Produce",
+    "cost": 1.0
+   }
+  ],
+  "steps": [
+   "Cook rice.",
+   "Simmer coconut milk and chickpeas 15 min.",
+   "Stir in spinach."
+  ]
+ },
+ {
+  "id": "shrimp_tacos",
+  "title": "Shrimp Tacos",
+  "prep_min": 20,
+  "servings": 2,
+  "meals": [
+   "dinner"
+  ],
+  "tags": [
+   "high-protein"
+  ],
+  "allergens": [
+   "shellfish",
+   "gluten"
+  ],
+  "macros": {
+   "kcal": 430,
+   "protein": 28,
+   "carbs": 40,
+   "fat": 16
+  },
+  "ingredients": [
+   {
+    "name": "shrimp",
+    "qty": 200,
+    "unit": "g",
+    "category": "Meat",
+    "cost": 4.5
+   },
+   {
+    "name": "tortilla",
+    "qty": 3,
+    "unit": "pc",
+    "category": "Bakery",
+    "cost": 1.0
+   },
+   {
+    "name": "cabbage",
+    "qty": 100,
+    "unit": "g",
+    "category": "Produce",
+    "cost": 0.4
+   }
+  ],
+  "steps": [
+   "Saut\u00e9 shrimp 4 min.",
+   "Fill tortillas with shrimp and cabbage."
+  ]
+ },
+ {
+  "id": "bean_potato",
+  "title": "Loaded Bean Potato",
+  "prep_min": 45,
+  "servings": 1,
+  "meals": [
+   "dinner"
+  ],
+  "tags": [
+   "vegan",
+   "budget"
+  ],
+  "allergens": [],
+  "macros": {
+   "kcal": 400,
+   "protein": 14,
+   "carbs": 75,
+   "fat": 5
+  },
+  "ingredients": [
+   {
+    "name": "potato",
+    "qty": 2,
+    "unit": "pc",
+    "category": "Produce",
+    "cost": 1.0
+   },
+   {
+    "name": "black beans",
+    "qty": 200,
+    "unit": "g",
+    "category": "Pantry",
+    "cost": 0.7
+   },
+   {
+    "name": "salsa",
+    "qty": 4,
+    "unit": "tbsp",
+    "category": "Pantry",
+    "cost": 0.6
+   }
+  ],
+  "steps": [
+   "Bake potatoes 40 min.",
+   "Top with warmed beans and salsa."
+  ]
+ },
+ {
+  "id": "turkey_meatballs",
+  "title": "Turkey Meatball Pasta",
+  "prep_min": 35,
+  "servings": 2,
+  "meals": [
+   "dinner"
+  ],
+  "tags": [
+   "high-protein"
+  ],
+  "allergens": [
+   "gluten",
+   "egg"
+  ],
+  "macros": {
+   "kcal": 520,
+   "protein": 40,
+   "carbs": 40,
+   "fat": 20
+  },
+  "ingredients": [
+   {
+    "name": "ground turkey",
+    "qty": 300,
+    "unit": "g",
+    "category": "Meat",
+    "cost": 4.0
+   },
+   {
+    "name": "pasta",
+    "qty": 150,
+    "unit": "g",
+    "category": "Pantry",
+    "cost": 0.6
+   },
+   {
+    "name": "canned tomatoes",
+    "qty": 400,
+    "unit": "g",
+    "category": "Pantry",
+    "cost": 1.2
+   },
+   {
+    "name": "egg",
+    "qty": 1,
+    "unit": "pc",
+    "category": "Dairy",
+    "cost": 0.4
+   }
+  ],
+  "steps": [
+   "Mix turkey and egg, form meatballs.",
+   "Bake 20 min.",
+   "Serve over pasta with tomato sauce."
+  ]
+ },
+ {
+  "id": "steak_salad",
+  "title": "Steak Avocado Salad",
+  "prep_min": 20,
+  "servings": 1,
+  "meals": [
+   "dinner"
+  ],
+  "tags": [
+   "keto",
+   "high-protein"
+  ],
+  "allergens": [],
+  "macros": {
+   "kcal": 580,
+   "protein": 42,
+   "carbs": 8,
+   "fat": 42
+  },
+  "ingredients": [
+   {
+    "name": "steak",
+    "qty": 200,
+    "unit": "g",
+    "category": "Meat",
+    "cost": 6.0
+   },
+   {
+    "name": "lettuce",
+    "qty": 100,
+    "unit": "g",
+    "category": "Produce",
+    "cost": 0.8
+   },
+   {
+    "name": "olive oil",
+    "qty": 1,
+    "unit": "tbsp",
+    "category": "Pantry",
+    "cost": 0.3
+   },
+   {
+    "name": "avocado",
+    "qty": 0.5,
+    "unit": "pc",
+    "category": "Produce",
+    "cost": 0.6
+   }
+  ],
+  "steps": [
+   "Sear steak 6 min, rest, slice.",
+   "Toss over lettuce and avocado."
+  ]
+ },
+ {
+  "id": "cottage_bowl",
+  "title": "Cottage Cheese Fruit Bowl",
+  "prep_min": 5,
+  "servings": 1,
+  "meals": [
+   "snack",
+   "breakfast"
+  ],
+  "tags": [
+   "vegetarian",
+   "high-protein"
+  ],
+  "allergens": [
+   "dairy"
+  ],
+  "macros": {
+   "kcal": 300,
+   "protein": 28,
+   "carbs": 20,
+   "fat": 10
+  },
+  "ingredients": [
+   {
+    "name": "cottage cheese",
+    "qty": 200,
+    "unit": "g",
+    "category": "Dairy",
+    "cost": 1.8
+   },
+   {
+    "name": "berries",
+    "qty": 100,
+    "unit": "g",
+    "category": "Produce",
+    "cost": 1.5
+   }
+  ],
+  "steps": [
+   "Top cottage cheese with berries."
+  ]
+ },
+ {
+  "id": "veggie_traybake",
+  "title": "Sweet Potato Traybake",
+  "prep_min": 40,
+  "servings": 2,
+  "meals": [
+   "dinner",
+   "lunch"
+  ],
+  "tags": [
+   "vegan",
+   "budget"
+  ],
+  "allergens": [],
+  "macros": {
+   "kcal": 350,
+   "protein": 10,
+   "carbs": 50,
+   "fat": 12
+  },
+  "ingredients": [
+   {
+    "name": "sweet potato",
+    "qty": 2,
+    "unit": "pc",
+    "category": "Produce",
+    "cost": 1.4
+   },
+   {
+    "name": "broccoli",
+    "qty": 200,
+    "unit": "g",
+    "category": "Produce",
+    "cost": 1.3
+   },
+   {
+    "name": "olive oil",
+    "qty": 1,
+    "unit": "tbsp",
+    "category": "Pantry",
+    "cost": 0.3
+   }
+  ],
+  "steps": [
+   "Chop vegetables.",
+   "Roast 30 min at 200C."
+  ]
+ }
 ]
