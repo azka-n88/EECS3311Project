@@ -7,3 +7,4 @@ _pycache_/
 *.pyc
 *.db
 exports/
+.DS_Store
