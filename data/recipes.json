@@ -45,7 +45,13 @@
   "steps": [
    "Simmer oats in milk 5 min.",
    "Top with sliced banana."
-  ]
+  ],
+  "micros": {
+   "fiber_g": 6,
+   "sodium_mg": 100,
+   "calcium_mg": 300,
+   "iron_mg": 2
+  }
  },
  {
   "id": "egg_toast",
@@ -95,7 +101,13 @@
    "Toast bread.",
    "Fry eggs 3 min.",
    "Assemble with sliced avocado."
-  ]
+  ],
+  "micros": {
+   "fiber_g": 8,
+   "sodium_mg": 450,
+   "calcium_mg": 60,
+   "iron_mg": 2.5
+  }
  },
  {
   "id": "yogurt_parfait",
@@ -144,7 +156,13 @@
   ],
   "steps": [
    "Layer yogurt, granola and berries."
-  ]
+  ],
+  "micros": {
+   "fiber_g": 4,
+   "sodium_mg": 120,
+   "calcium_mg": 250,
+   "iron_mg": 1
+  }
  },
  {
   "id": "veggie_omelet",
@@ -194,7 +212,13 @@
   "steps": [
    "Whisk eggs.",
    "Cook 3 min, add spinach and cheese, fold."
-  ]
+  ],
+  "micros": {
+   "fiber_g": 1,
+   "sodium_mg": 520,
+   "calcium_mg": 300,
+   "iron_mg": 2.5
+  }
  },
  {
   "id": "pb_toast_banana",
@@ -244,7 +268,13 @@
   "steps": [
    "Toast bread.",
    "Spread peanut butter, add banana."
-  ]
+  ],
+  "micros": {
+   "fiber_g": 7,
+   "sodium_mg": 380,
+   "calcium_mg": 70,
+   "iron_mg": 2
+  }
  },
  {
   "id": "tofu_scramble",
@@ -294,7 +324,13 @@
   "steps": [
    "Crumble tofu into a pan.",
    "Add turmeric and spinach, cook 8 min."
-  ]
+  ],
+  "micros": {
+   "fiber_g": 4,
+   "sodium_mg": 200,
+   "calcium_mg": 350,
+   "iron_mg": 4
+  }
  },
  {
   "id": "chicken_stirfry",
@@ -351,7 +387,13 @@
    "Cook rice.",
    "Sear chicken 6 min.",
    "Add broccoli and soy sauce, cook 4 min."
-  ]
+  ],
+  "micros": {
+   "fiber_g": 5,
+   "sodium_mg": 900,
+   "calcium_mg": 60,
+   "iron_mg": 2
+  }
  },
  {
   "id": "lentil_soup",
@@ -406,7 +448,13 @@
   "steps": [
    "Saut\u00e9 onion and carrot 5 min.",
    "Add lentils and broth, simmer 20 min."
-  ]
+  ],
+  "micros": {
+   "fiber_g": 12,
+   "sodium_mg": 600,
+   "calcium_mg": 60,
+   "iron_mg": 5
+  }
  },
  {
   "id": "salmon_bowl",
@@ -456,7 +504,13 @@
    "Cook rice.",
    "Pan-sear salmon 8 min.",
    "Serve over rice with cucumber."
-  ]
+  ],
+  "micros": {
+   "fiber_g": 3,
+   "sodium_mg": 250,
+   "calcium_mg": 30,
+   "iron_mg": 1.5
+  }
  },
  {
   "id": "pasta_tomato",
@@ -507,7 +561,13 @@
    "Boil pasta 10 min.",
    "Simmer tomatoes 10 min.",
    "Combine, add basil."
-  ]
+  ],
+  "micros": {
+   "fiber_g": 7,
+   "sodium_mg": 400,
+   "calcium_mg": 50,
+   "iron_mg": 3
+  }
  },
  {
   "id": "chicken_wrap",
@@ -563,7 +623,13 @@
   "steps": [
    "Slice cooked chicken.",
    "Fill tortillas with chicken, lettuce, yogurt."
-  ]
+  ],
+  "micros": {
+   "fiber_g": 4,
+   "sodium_mg": 650,
+   "calcium_mg": 150,
+   "iron_mg": 2
+  }
  },
  {
   "id": "chickpea_salad",
@@ -617,7 +683,13 @@
   "steps": [
    "Chop vegetables.",
    "Toss with chickpeas and olive oil."
-  ]
+  ],
+  "micros": {
+   "fiber_g": 12,
+   "sodium_mg": 350,
+   "calcium_mg": 90,
+   "iron_mg": 4
+  }
  },
  {
   "id": "tuna_sandwich",
@@ -668,7 +740,13 @@
   "steps": [
    "Mix tuna and mayo.",
    "Assemble sandwich."
-  ]
+  ],
+  "micros": {
+   "fiber_g": 3,
+   "sodium_mg": 700,
+   "calcium_mg": 50,
+   "iron_mg": 2.5
+  }
  },
  {
   "id": "beef_chili",
@@ -722,7 +800,13 @@
    "Brown beef.",
    "Add onion, beans, tomatoes.",
    "Simmer 30 min."
-  ]
+  ],
+  "micros": {
+   "fiber_g": 11,
+   "sodium_mg": 800,
+   "calcium_mg": 110,
+   "iron_mg": 5
+  }
  },
  {
   "id": "veggie_curry",
@@ -776,7 +860,13 @@
    "Cook rice.",
    "Simmer coconut milk and chickpeas 15 min.",
    "Stir in spinach."
-  ]
+  ],
+  "micros": {
+   "fiber_g": 9,
+   "sodium_mg": 450,
+   "calcium_mg": 120,
+   "iron_mg": 5
+  }
  },
  {
   "id": "shrimp_tacos",
@@ -825,7 +915,13 @@
   "steps": [
    "Saut\u00e9 shrimp 4 min.",
    "Fill tortillas with shrimp and cabbage."
-  ]
+  ],
+  "micros": {
+   "fiber_g": 5,
+   "sodium_mg": 700,
+   "calcium_mg": 120,
+   "iron_mg": 2.5
+  }
  },
  {
   "id": "bean_potato",
@@ -872,7 +968,13 @@
   "steps": [
    "Bake potatoes 40 min.",
    "Top with warmed beans and salsa."
-  ]
+  ],
+  "micros": {
+   "fiber_g": 15,
+   "sodium_mg": 450,
+   "calcium_mg": 90,
+   "iron_mg": 5
+  }
  },
  {
   "id": "turkey_meatballs",
@@ -929,7 +1031,13 @@
    "Mix turkey and egg, form meatballs.",
    "Bake 20 min.",
    "Serve over pasta with tomato sauce."
-  ]
+  ],
+  "micros": {
+   "fiber_g": 5,
+   "sodium_mg": 650,
+   "calcium_mg": 110,
+   "iron_mg": 3.5
+  }
  },
  {
   "id": "steak_salad",
@@ -983,7 +1091,13 @@
   "steps": [
    "Sear steak 6 min, rest, slice.",
    "Toss over lettuce and avocado."
-  ]
+  ],
+  "micros": {
+   "fiber_g": 4,
+   "sodium_mg": 350,
+   "calcium_mg": 40,
+   "iron_mg": 4
+  }
  },
  {
   "id": "cottage_bowl",
@@ -1025,7 +1139,13 @@
   ],
   "steps": [
    "Top cottage cheese with berries."
-  ]
+  ],
+  "micros": {
+   "fiber_g": 3,
+   "sodium_mg": 700,
+   "calcium_mg": 150,
+   "iron_mg": 0.5
+  }
  },
  {
   "id": "veggie_traybake",
@@ -1073,6 +1193,12 @@
   "steps": [
    "Chop vegetables.",
    "Roast 30 min at 200C."
-  ]
+  ],
+  "micros": {
+   "fiber_g": 9,
+   "sodium_mg": 200,
+   "calcium_mg": 100,
+   "iron_mg": 2.5
+  }
  }
 ]

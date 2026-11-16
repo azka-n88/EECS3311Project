@@ -79,6 +79,15 @@ class MealPlanModel(Subject):
     def __init__(self, con):
         super().__init__(); self.con = con
         self.recipes = {r["id"]: r for r in json.loads(config.RECIPES_PATH.read_text())}
+        for row in self.con.execute("SELECT json FROM adapted_recipes"):
+            r = json.loads(row["json"]); self.recipes[r["id"]] = r
+
+    def add_recipe(self, r):
+        """Persist an adapted recipe to the library so it can be planned and cooked."""
+        for k in ("id", "title", "ingredients", "steps", "macros", "meals", "servings", "tags", "allergens"):
+            if k not in r: raise ValidationError(f"Recipe missing field {k!r}")
+        self.con.execute("INSERT OR REPLACE INTO adapted_recipes VALUES(?,?)", (r["id"], json.dumps(r)))
+        self.con.commit(); self.recipes[r["id"]] = r; self.notify_observers("recipes_changed", {"id": r["id"]})
 
     def set_slot(self, day, meal, recipe_id):
         if meal not in self.MEALS: raise ValidationError(f"meal must be one of {self.MEALS}")
