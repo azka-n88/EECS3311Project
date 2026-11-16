@@ -23,3 +23,7 @@ AI meal-planning agent with GUI (Tkinter) and CLI sharing one `ServiceController
     python -m culinarymind.cli plan-swap 2 dinner --reason "need a 15 minute option" --max-prep 15
     python -m culinarymind.cli macros
 Add `--no-llm` to use the deterministic planner (also used automatically if the LLM call fails).
+
+## All commands
+`recipes`, `preferences`, `import-receipt`, `feedback`, `adapt`, `nutrition`, `cook`, `plan-generate`, `plan-swap`, `grocery`, `macros`, `export`.
+GUI: `python -m culinarymind.gui` (needs Tkinter; on Homebrew Python: `brew install python-tk`).
